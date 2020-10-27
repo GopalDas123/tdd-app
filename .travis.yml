@@ -10,5 +10,5 @@ script:
 deploy:
   provider: surge
   skip_cleanup: true
-  domain: www.facebook.com
+  domain:
   project: ./build/
